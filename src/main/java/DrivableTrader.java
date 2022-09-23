@@ -22,7 +22,7 @@ class DrivableTrader extends Trader<DrivableTrader> {
      * @param money the DrivableTrader's money
      */
 
-    public DrivableTrader(List<Tradable> inventory, List<Tradable> wishlist, int money) {
+    public DrivableTrader(List<DrivableTrader> inventory, List<DrivableTrader> wishlist, int money) {
         super(inventory, wishlist, money);
     }
 
