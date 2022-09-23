@@ -27,7 +27,7 @@ class DrivableTrader extends Trader<DrivableTrader> {
     }
 
     public DrivableTrader(int i) {
-        super();
+        super(i);
     }
 
     public int getSellingPrice(Tradable item) {
