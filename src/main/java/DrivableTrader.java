@@ -26,7 +26,10 @@ class DrivableTrader extends Trader<DrivableTrader> {
         super(inventory, wishlist, money);
     }
 
-    @Override
+    public DrivableTrader(int i) {
+        super();
+    }
+
     public int getSellingPrice(Tradable item) {
         int price = super.getSellingPrice((DrivableTrader) item);
 

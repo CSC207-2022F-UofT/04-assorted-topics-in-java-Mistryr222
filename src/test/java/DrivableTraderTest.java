@@ -16,7 +16,7 @@ public class DrivableTraderTest {
         Horse h = new Horse();
         Unicorn u = new Unicorn();
         assertEquals(11, dt.getSellingPrice(h));
-        assertEquals(Tradable.MISSING_PRICE, dt.getSellingPrice(u));
+        assertEquals(Tradable.MISSING_PRICE, dt.getSellingPrice((Tradable) u));
     }
 
     @Test(timeout = 50)
